@@ -28,7 +28,11 @@ public class MinMaxChallenge {
                 }
         } while (true);
 
-        System.out.println("Minimum number entered is: " + min);
-        System.out.println("Maximum number entered is: " + max);
+        if (loopCount == 0) {
+            System.out.println("No valid data entered");
+        } else {
+            System.out.println("Minimum number entered is: " + min);
+            System.out.println("Maximum number entered is: " + max);
+        }
     }
 }
