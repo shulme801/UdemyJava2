@@ -11,4 +11,4 @@ Most of this work is my own.  However,several of the math-intensive exercises fr
 * ThePrimeNumberChallenge.java
 * NumberPalindrome.java
 
-To complete the above exercises I’ve borrowed some of his algorithms and taken guidance from his code.  While I’ve made some changes to his algorithms, I wish to acknowledge my debt to *il miglior fabbro*, the better craftsman. I hope that other students will benefit from my code as I have from his.
+To complete the above exercises I’ve borrowed some of his algorithms and taken guidance from his code.  While I’ve made some changes to his algorithms, his code provided the guidance I needed.
