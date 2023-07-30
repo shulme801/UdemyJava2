@@ -1,4 +1,4 @@
-public class Main {
+public class MinutesSecondsChallenge {
     public static void main(String[] args) {
         System.out.println("First test case: " + getDurationString(-3945));
         System.out.println("Second test case: " + getDurationString(65, -45));
