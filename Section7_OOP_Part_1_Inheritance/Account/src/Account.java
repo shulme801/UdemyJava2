@@ -1,11 +1,5 @@
-public class Account {
-
-    private String accountNumber;
-    private double accountBalance;
-    private String customerName;
-    private String customerEmail;
-    private String customerPhoneNumber;
-
+foneNumber     = phone;
+    }
     public void depositFunds(double depositAmount) {
         this.accountBalance += depositAmount;
         System.out.println("Deposit of $" + depositAmount + " made. New balance is $" + this.accountBalance);
