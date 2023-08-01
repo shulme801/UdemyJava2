@@ -12,7 +12,7 @@ public class Main {
         System.out.println(secondCustomer.getCreditLimit());
         System.out.println(secondCustomer.getEmail());
 
-        Customer thirdCustomer = new Customer("Joe", "joe@email.com");
+        Customer thirdCustomer = new Customer("Fred", "fred@fred.com");
         System.out.println(thirdCustomer.getName());
         System.out.println(thirdCustomer.getCreditLimit());
         System.out.println(thirdCustomer.getEmail());
