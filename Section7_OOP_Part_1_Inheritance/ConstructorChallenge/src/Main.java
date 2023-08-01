@@ -16,5 +16,6 @@ public class Main {
         System.out.println(thirdCustomer.getName());
         System.out.println(thirdCustomer.getCreditLimit());
         System.out.println(thirdCustomer.getEmail());
+
     }
 }
