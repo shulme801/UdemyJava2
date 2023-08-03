@@ -1,20 +1,21 @@
 public class Main {
     public static void main(String[] args) {
-        String id;
-        String studentName;
-        String dateOfBirth;
-        String classList;
 
-        id          = "12345678";
-        studentName = "Stephen Hulme";
-        dateOfBirth = "April 5, 1900";
-        classList   = "Don't you wish";
+        for(int i = 1; i <= 5; i++) {
+            Student s = new Student("S92300" + i,
+                    switch (i){
+                        case 1 -> "Mary";
+                        case 2 -> "Bill";
+                        case 3 -> "Jane";
+                        case 4 -> "Tim";
+                        case 5 -> "Ursula";
+                        default -> "Anonymous";
+                    },
+                    "05/11/1985",
+                    "Java MasterClass");
+        }
 
-        Student student = new Student(id, studentName, dateOfBirth, classList);
 
-        System.out.println("Student ID is: " + student.getId());
-        System.out.println("Student Name is: " + student.getName());
-        System.out.println("Student's Class List is: " +student.getClassList());
-        System.out.println("Student's date of birth is: " + student.getDateOfBirth());
+
     }
 }
