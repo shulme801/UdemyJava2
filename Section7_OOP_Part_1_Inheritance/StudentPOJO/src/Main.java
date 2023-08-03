@@ -14,8 +14,7 @@ public class Main {
                     "05/11/1985",
                     "Java MasterClass");
             System.out.println(s);
-            // String outString = s.toString();
-            //System.out.println(outString);
+
         }
 
 

@@ -12,7 +12,7 @@ public class Student {
         this.classList = classList;
     }
 
-    @Override
+  @Override
     public String toString() {
         return "Student{" +
                 "id='" + id + '\'' +
