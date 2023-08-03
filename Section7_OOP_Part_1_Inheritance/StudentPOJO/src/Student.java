@@ -22,6 +22,22 @@ public class Student {
                 '}';
     }
 
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setDateOfBirth(String dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
+    }
+
+    public void setClassList(String classList) {
+        this.classList = classList;
+    }
+
     public String getId() {
         return id;
     }
