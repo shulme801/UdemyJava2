@@ -9,6 +9,7 @@ public class Calculator {
     }
 
     public double getTotalCost(){
+        // The code will work fine without "this", but I'm a suspenders-and-belt programmer
         return (this.floor.getArea() * this.carpet.getCost());
     }
 }
