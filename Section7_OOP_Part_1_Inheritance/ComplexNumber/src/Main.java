@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         ComplexNumber one = new ComplexNumber(1.0, 1.0);
+        ComplexNumber two = new ComplexNumber(2.0,2.0);
         ComplexNumber number = new ComplexNumber(2.5, -1.5);
 
         one.add(1,1);
@@ -12,6 +13,10 @@ public class Main {
         System.out.println("one.imaginary= " + one.getImaginary());
 
         number.subtract(one);
+        System.out.println("number.real= " + number.getReal());
+        System.out.println("number.imaginary= " + number.getImaginary());
+
+        number.add(two);
         System.out.println("number.real= " + number.getReal());
         System.out.println("number.imaginary= " + number.getImaginary());
 
