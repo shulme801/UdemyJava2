@@ -40,5 +40,9 @@ public class Main extends Object {
             this.parentName = parentName;
         }
 
+        @Override
+        public String toString() {
+            return parentName + "'s kid " +  super.toString();
+        }
     }
 
