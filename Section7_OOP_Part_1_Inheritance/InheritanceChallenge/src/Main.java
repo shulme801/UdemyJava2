@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        Employee stephen = new Employee("Stephen",
+        Employee merrill = new Employee("Merrill",
                 "11/11/1985", "01/01/2020");
-        System.out.println(stephen);
-        System.out.println("Age = " + stephen.getAge());
-        System.out.println("Pay = " + stephen.collectPay());
+        System.out.println(merrill);
+        System.out.println("Age = " + merrill.getAge());
+        System.out.println("Pay = " + merrill.collectPay());
 
         SalariedEmployee fred = new SalariedEmployee("Fred Flintstone", "04/05/1995", "01/03/2021", 35000);
         System.out.println(fred);
