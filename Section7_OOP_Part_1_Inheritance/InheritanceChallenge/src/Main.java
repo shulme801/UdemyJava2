@@ -17,8 +17,14 @@ public class Main {
         HourlyEmployee joe = new HourlyEmployee("Joe", "07/04/1976", "01/01/2019", 15.0, 44);
         System.out.println(joe);
         System.out.println("Joe's Age = " + joe.getAge());
-        System.out.println("Joe's Hours Worked = " + joe.getHoursWorked());
+        System.out.println("Joe's Hours Worked This Week = " + joe.getHoursWorked());
         System.out.println("Joe's Paycheck = " + joe.collectPay());
+
+        HourlyEmployee terry = new HourlyEmployee("Terry", "07/24/1986", "01/01/2019", 15.0, 35);
+        System.out.println(terry);
+        System.out.println("Terry's Age = " + terry.getAge());
+        System.out.println("Terry's Hours Worked This Week = " + terry.getHoursWorked());
+        System.out.println("Terry's Paycheck = " + terry.collectPay());
 
 
     }
