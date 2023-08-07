@@ -13,14 +13,6 @@ public class HourlyEmployee extends Employee {
         return hoursWorked;
     }
 
-//    @Override
-//    public String toString() {
-//        return "HourlyEmployee{" +
-//                "hourlyPayRate=" + hourlyPayRate +
-//                ", endDate='" + endDate + '\'' +
-//                '}';
-//    }
-
     @Override
     public double collectPay() {
         double paycheck;

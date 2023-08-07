@@ -26,6 +26,12 @@ public class Main {
         System.out.println("Terry's Hours Worked This Week = " + terry.getHoursWorked());
         System.out.println("Terry's Paycheck = " + terry.collectPay());
 
+        HourlyEmployee larry = new HourlyEmployee("Larry", "07/28/1986", "01/01/2018", 15.0, 53);
+        System.out.println(larry);
+        System.out.println("Larry's Age = " + larry.getAge());
+        System.out.println("Larry's Hours Worked This Week = " + larry.getHoursWorked());
+        System.out.println("Larry's Paycheck = " + larry.collectPay());
+
 
     }
 }
