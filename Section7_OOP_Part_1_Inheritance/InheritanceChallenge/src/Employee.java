@@ -3,6 +3,8 @@ public class Employee extends Worker{
     private long employeeId;
     private String hireDate;
 
+    private double hoursWorked;
+
     private static int employeeNumber = 1;
 
     public Employee(String name, String birthDate, String hireDate) {

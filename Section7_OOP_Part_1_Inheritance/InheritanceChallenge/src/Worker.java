@@ -12,6 +12,13 @@ public class Worker {
         this.birthDate = birthDate;
     }
 
+    public Worker(String name, String birthDate, String endDate) {
+        this.name = name;
+        this.birthDate = birthDate;
+        this.endDate = endDate;
+
+    }
+
     public int getAge() {
 
         int currentYear = 2025;
