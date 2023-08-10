@@ -1,6 +1,6 @@
 public class PrintInformation {
 
-    public static void printInformation(String string) {
+    public static void printStringInfo(String string) {
 
         int length = string.length();
         System.out.printf("Length = %d %n", length);
