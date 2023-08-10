@@ -11,7 +11,6 @@ public class PrintInfo {
 
             if (string.isBlank()) {
                 System.out.println("String is blank");
-                return;
             }
 
             System.out.printf("First char = %c %n", string.charAt(0));
