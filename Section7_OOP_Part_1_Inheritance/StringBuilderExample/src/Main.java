@@ -12,8 +12,12 @@ public class Main {
         helloWorldBuilder.append(" and Goodbye");
         StrBld.printInformation(helloWorldBuilder);
 
-        StringBuilder emptyStart = new StringBuilder();
-        StringBuilder emptyStart32 = new StringBuilder(32);
+        StringBuilder emptyStart = new StringBuilder(); // capacity will be the default of 16 chars
+        emptyStart.append("a".repeat(57));
+
+        StringBuilder emptyStart32 = new StringBuilder(32); // boost capacity to 32 chars
+        emptyStart32.append("a".repeat(17));
+
         StrBld.printInformation(emptyStart);
         StrBld.printInformation(emptyStart32);
 
