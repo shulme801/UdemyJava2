@@ -12,5 +12,10 @@ public class Main {
         helloWorldBuilder.append(" and Goodbye");
         StrBld.printInformation(helloWorldBuilder);
 
+        StringBuilder emptyStart = new StringBuilder();
+        StringBuilder emptyStart32 = new StringBuilder(32);
+        StrBld.printInformation(emptyStart);
+        StrBld.printInformation(emptyStart32);
+
     }
 }

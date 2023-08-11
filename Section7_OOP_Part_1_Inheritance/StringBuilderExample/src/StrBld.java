@@ -11,6 +11,7 @@ public class StrBld {
 
         System.out.println("StringBuilder = " + builder);
         System.out.println("String's length = " + builder.length());
+        System.out.println("capacity = " + builder.capacity());
 
     }
 }
