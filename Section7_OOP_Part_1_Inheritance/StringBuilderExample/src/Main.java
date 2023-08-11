@@ -21,5 +21,20 @@ public class Main {
         StrBld.printInformation(emptyStart);
         StrBld.printInformation(emptyStart32);
 
+        StringBuilder builderPlus = new StringBuilder("Hello" + " World");
+        builderPlus.append(" and Goodbye");
+
+        builderPlus.deleteCharAt(16).insert(16,'g');
+        System.out.println(builderPlus);
+
+        builderPlus.replace(16,17,"G");
+        System.out.println(builderPlus);
+
+        builderPlus.reverse().setLength(7);
+        System.out.println(builderPlus);
+
+
+
+
     }
 }
