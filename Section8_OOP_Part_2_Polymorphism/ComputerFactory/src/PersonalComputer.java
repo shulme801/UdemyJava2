@@ -17,18 +17,8 @@ public class PersonalComputer extends Product{
 
     public void powerUp() {
         computerCase.pressPowerButton();
+        motherBoard.loadProgram("Windows OS");
         drawLogo();
     }
 
-//    public ComputerCase getComputerCase() {
-//        return computerCase;
-//    }
-//
-//    public Monitor getMonitor() {
-//        return monitor;
-//    }
-//
-//    public Motherboard getMotherBoard() {
-//        return motherBoard;
-//    }
 }
