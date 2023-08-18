@@ -16,6 +16,7 @@ class CoffeeMaker {
         if (hasWorkToDo) {
             System.out.println("Brewing Coffee!!");
             hasWorkToDo = false;
+
         }
     }
 
