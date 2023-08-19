@@ -1,24 +1,21 @@
 public class SmartKitchen {
-    private CoffeeMaker oxo;
-    private Refrigerator kitchenAid;
-    private DishWasher bosch;
+    // This challenge uses composition only.  Nothing is inherited from the parent class.  The advantage
+    // is this: the calling code needs to know nothing about the details of the appliances in the
+    // SmartKitchen.  An appliance can be added without changing the calling code in Main.java.
+    private final CoffeeMaker oxo;
+    private final Refrigerator kitchenAid;
+    private final DishWasher bosch;
 
     public SmartKitchen() {
-        oxo = new CoffeeMaker();
+        // Create the appliances
+        oxo        = new CoffeeMaker();
         kitchenAid = new Refrigerator();
-        bosch = new DishWasher();
+        bosch      = new DishWasher();
     }
 
-    public CoffeeMaker getOxo() {
-        return oxo;
-    }
-
-    public Refrigerator getKitchenAid() {
-        return kitchenAid;
-    }
 
     public void setKitchenState(boolean coffeeFlag, boolean fridgeFlag, boolean dishwasherFlag) {
-
+        // See which appliances need to do the work.
         oxo.setHasWorkToDo(coffeeFlag);
         bosch.setHasWorkToDo(fridgeFlag);
         kitchenAid.setHasWorkToDo(dishwasherFlag);
@@ -32,9 +29,6 @@ public class SmartKitchen {
         bosch.WashDishes();
     }
 
-    public DishWasher getBosch() {
-        return bosch;
-    }
 }
 
 class CoffeeMaker {
